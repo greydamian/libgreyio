@@ -8,6 +8,8 @@
 #ifndef GREYIO_H
 #define GREYIO_H
 
+#include <unistd.h>
+
 ssize_t readall(int fd, void **buf);
 ssize_t writeall(int fd, void *buf, size_t count);
 
