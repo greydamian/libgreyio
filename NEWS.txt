@@ -1,0 +1,12 @@
+libgreyio v1.0.0
+----------------
+* Initial release
+
+TODO
+----
+* Switch from build script to setup script [v2.0.0]
+    * Add build/install/clean commands
+* Add readline function [v3.0.0]
+    * ssize_t readln(int fd, void **buf)
+* Switch from build/setup script to Makefile [v4.0.0]
+
